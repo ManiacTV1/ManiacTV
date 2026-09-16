@@ -1,23 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="ManiacTV" name="ManiacTV" version="1.0" provider-name="ManiacTV">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/ManiacTV/ManiacTV/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/ManiacTV/ManiacTV/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/ManiacTV/ManiacTV/master/repo/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>ManiacTV Repo</summary>
-        <description>ManiacTV Repo</description>
-        <disclaimer />
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon><addon id="plugin.program.ManiacWizard" name="[COLOR limegreen]Maniac[/COLOR]Wizard" version="1.0" provider-name="ManiacTV">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.ManiacWizard" name="[COLOR limegreen]Maniac[/COLOR]Wizard" version="1.0" provider-name="ManiacTV">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.requests" />
@@ -47,4 +29,4 @@
             <fanart>fanart.png</fanart>
         </assets>
     </extension>
-</addon></addons>
+</addon>
